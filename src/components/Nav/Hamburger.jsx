@@ -12,7 +12,7 @@ export default function Hamburger() {
     };
 
     return (
-        <div className="flex items-center justify-between relative p-4">
+        <div className="flex items-center justify-between relative p-4 z-50">
             <div>
                 <NavLink to="/">
                     <h1 className="text-2xl text-pink-500 font-semibold">

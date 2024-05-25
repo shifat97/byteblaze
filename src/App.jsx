@@ -2,7 +2,7 @@ import "./App.css";
 import Hamburger from "./components/Nav/Hamburger";
 import Navbar from "./components/Nav/Navbar";
 import Footer from "./components/Footer/Footer.jsx";
-import Hero from "./components/Hero/Hero.jsx";
+import {Outlet} from "react-router-dom";
 
 function App() {
     return (
@@ -16,7 +16,7 @@ function App() {
                 </div>
             </div>
             <div className="min-h-[calc(100vh-116px)]">
-                <Hero/>
+                <Outlet/>
             </div>
             <div>
                 <Footer/>

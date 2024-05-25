@@ -6,7 +6,7 @@ import {Outlet} from "react-router-dom";
 
 function App() {
     return (
-        <div>
+        <div className="min-w-[350px]">
             <div>
                 <div className="hidden lg:block">
                     <Navbar></Navbar>

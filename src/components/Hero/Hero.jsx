@@ -10,7 +10,8 @@ export default function Hero() {
     }
 
     return (
-        <div style={backgroundStyle} className="flex flex-col items-center justify-center gap-4 min-h-[calc(100vh-116px)]">
+        <div style={backgroundStyle}
+             className="flex flex-col items-center justify-center gap-4 min-h-[calc(100vh-116px)]">
             <div>
                 <h1 className="text-3xl lg:text-4xl font-bold">Welcome to <span className="bg-gradient-to-r from-primary
                  via-blue-500 to-secondary bg-300% text-transparent bg-clip-text animate-gradient">ByteBlaze</span></h1>
